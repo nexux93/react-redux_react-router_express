@@ -1,4 +1,4 @@
-import C from "./constants.js";
+import C from "./constants.ts";
 
 export const color = (state = {}, action) => {
     switch (action.type) {

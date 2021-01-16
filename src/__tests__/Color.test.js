@@ -1,4 +1,4 @@
-import C from "../constants.js"
+import C from "../constants.ts"
 import {color} from "../redusers";
 import deepFreeze from "deep-freeze";
 

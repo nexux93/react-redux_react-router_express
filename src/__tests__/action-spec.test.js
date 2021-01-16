@@ -1,4 +1,4 @@
-import C from "../constants.js";
+import C from "../constants.ts";
 import storeFactory from "../storage";
 import {addColor} from "../actions";
 

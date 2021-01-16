@@ -1,5 +1,5 @@
 import {Router} from "express";
-import C from "./constants.js";
+import C from "./constants.ts";
 import {v4} from "uuid";
 
 const dispatchAndRespond = (req, res, action) => {
