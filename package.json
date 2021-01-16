@@ -1,0 +1,89 @@
+{
+  "name": "fast-start-react",
+  "version": "0.1.0",
+  "private": true,
+  "jest": {},
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.58",
+    "@types/react": "^16.9.49",
+    "@types/react-bootstrap": "^0.32.23",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/uuid": "^8.3.0",
+    "array-helpers": "^2.2.2",
+    "axios": "^0.21.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "es6-promise": "^4.2.8",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.21.5",
+    "express": "^4.17.1",
+    "express-cors": "0.0.3",
+    "isomorphic-fetch": "^2.2.1",
+    "primeicons": "^4.0.0",
+    "primereact": "^4.2.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.2.2",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.7.5",
+    "request": "^2.88.2",
+    "uuid": "^8.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node --experimental-json-modules src/indexServer.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.1.1",
+    "prettier-eslint": "^11.0.0",
+    "babel-jest": "^24.9.0",
+    "deep-freeze": "0.0.1",
+    "enzyme": "^3.11.0",
+    "jest-watch-typeahead": "^0.6.0",
+    "react-addons-test-utils": "^15.6.2"
+  }
+}
